@@ -2,20 +2,27 @@
   Based on dribble shot :
   https://dribbble.com/shots/6629408-Info-Button-Interaction
 
+doctype html
+head
+  meta(charset='UTF-8')
+  title Info Button Interaction
+  link(rel='stylesheet' href='./style.css')
+  script(src='./script.js')
+
 .card
   .horizon
   .sun
 
   svg.mountain( viewbox='0 0 200 100' xmlns='http://www.w3.org/2000/svg' )
     polygon( points=
-			'97.7 , 99.97\
+      '97.7 , 99.97\
       110  , 94.5\
       128.5, 91.8\
       150.6, 94.3\
       162.2, 90\
       200  , 91.5\
       200  , 99.97'
-		)
+    )
  
   .hint
     span.icon-info
